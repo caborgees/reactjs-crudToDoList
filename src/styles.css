@@ -1,0 +1,97 @@
+.container{
+    width: 90%;
+    height: 600px;
+    background-image: url('img.png');
+    background-repeat:no-repeat ;
+    background-position: left;
+  
+  }
+  
+  .App {
+    margin: auto;
+    width: 50%;
+    float:right;
+  
+  }
+  
+  .myForm{
+    width: 100%;
+      border-radius: 5px;
+    display: flex;
+    padding: 20px;
+    animation: fade 4s; 
+  
+  
+  }
+  
+  h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-style: bold;
+  text-align: center;;
+  font-weight: bold;
+  font-size: 49px;
+  line-height: 20px;
+  margin-top: 100px;
+  animation: fade 4s; 
+  
+  }
+  
+  .formField{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: block;
+    border: none;
+    border-radius: 5px;
+    background-color: #FFE8E8;
+  }
+  
+  .myButton{
+    width: 10%;
+    margin-top:8px;
+    margin-left: 5px;
+    height: 38px;
+    background-color: #FC425F;
+    color: white;
+    font-style: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .myList{
+    list-style: none;
+    font-family: Karla;
+    font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: right;
+  
+  }
+  
+  .myListButton{
+    display: inline-block;
+    background-color: #DAE9FB;
+    height: 10%;
+    width: 10%;
+    border-radius: 4px;
+  border:none;
+    margin: 3px 5px;
+   
+  }
+  
+  .icon-lixo, .icon-edit{
+    width: 15px;
+    padding:5px;
+    height: 15px;;
+  }
+  span{
+    color:#2A2C7B;
+  }
+  
+  @keyframes fade {
+    0% { opacity: 0;}
+    100%{ opacity: 0.9;}
+  }
